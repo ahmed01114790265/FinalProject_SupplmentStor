@@ -149,7 +149,6 @@ class Program
             return;
         }
 
-        Console.WriteLine($"ID: {p.Id}");
         Console.WriteLine($"Name: {p.Name}");
         Console.WriteLine($"Flavor: {p.Flavor}");
         Console.WriteLine($"Category: {p.Category}");
@@ -177,7 +176,7 @@ class Program
 
         foreach (var p in result)
         {
-            Console.WriteLine($"{p.Id} - {p.Name} | {p.Flavor} | {p.Category}");
+            Console.WriteLine($" Name:{p.Name} | Flavor:{p.Flavor}|");
         }
     }
 }

@@ -1,5 +1,14 @@
-﻿وظائف المشروع
+﻿                                                                                 .الاسم: احمد محمدالامين عبدالمجيد عبد النبي
 
+
+                                                      (Supplement Products) .اسم المشروع : سيستم عرض منتجات مكملات غذائيه.
+
+                  فكرة المشروع : هو سيستم لعرض المنتجات والعملاء يستطيعو ان يتصفحو كل المنتجات
+                   . المتاحه في المخزن . مع امكانيه العميل يبحث عن منتج معين        
+                
+        
+  :وظائف المشروع.
+                 
 إنشاء وإضافة منتج جديد
 
 تعديل بيانات منتج موجود
@@ -13,38 +22,26 @@
 البحث عن منتج بالاسم أو الطعم أو التصنيف
 
 /-----------------------------------------------------------
-هيكل المشروع
+Project Structure
 SupplementSystem
 │
 ├── Program.cs
 ├── Product.cs
 //------------------------------------------------------------
-الكلاسات المستخدمة
-Product Class
 
-يمثل المنتج ويحتوي على:
 
-Id
+Used Classes:
+ Product Class:
 
-Name
-
-Flavor
-
-Category
-
-Price
-
-Quantity
+Represents a product with the following properties:
+1-Id
+2-Name
+3-Flavor
+4-Category
+5-Price
+6-Quantity
 //------------------------------------------------------------
-Project Objectives
 
-Practice Object-Oriented Programming (OOP) concepts in C#
-
-Implement full CRUD operations
-
-Work with Lists and LINQ
-
-Build an interactive console menu
 //------------------------------------------------------------
 Project Features
 
@@ -60,25 +57,4 @@ View full details of a specific product
 
 Search products by name, flavor, or category
 //------------------------------------------------------------
-Project Structure
-SupplementSystem
-│
-├── Program.cs
-├── Product.cs
 //------------------------------------------------------------
-Used Classes
- Product Class
-
-Represents a product with the following properties:
-
-Id
-
-Name
-
-Flavor
-
-Category
-
-Price
-
-Quantity
