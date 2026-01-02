@@ -132,7 +132,7 @@ class Program
 
         foreach (var p in products)
         {
-            Console.WriteLine($"{p.Id} - {p.Name} | {p.Flavor} | {p.Category} | {p.Price} EGP");
+            Console.WriteLine($"{p.Name} | {p.Flavor} | {p.Category} | {p.Price} EGP");
         }
     }
 
