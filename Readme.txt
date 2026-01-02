@@ -1,4 +1,4 @@
-﻿                                                                                 .الاسم: احمد محمدالامين عبدالمجيد عبد النبي
+﻿وظائف المشروع
 
 
                                                       (Supplement Products) .اسم المشروع : سيستم عرض منتجات مكملات غذائيه.
@@ -11,40 +11,6 @@
                  
 إنشاء وإضافة منتج جديد
 
-تعديل بيانات منتج موجود
-
-حذف منتج
-
-عرض جميع المنتجات في الصفحة الرئيسية
-
-عرض التفاصيل الكاملة لمنتج معين
-
-البحث عن منتج بالاسم أو الطعم أو التصنيف
-
-/-----------------------------------------------------------
-Project Structure
-SupplementSystem
-│
-├── Program.cs
-├── Product.cs
-//------------------------------------------------------------
-
-
-Used Classes:
- Product Class:
-
-Represents a product with the following properties:
-1-Id
-2-Name
-3-Flavor
-4-Category
-5-Price
-6-Quantity
-//------------------------------------------------------------
-
-//------------------------------------------------------------
-Project Features
-
 Add a new product
 
 Update an existing product
@@ -55,6 +21,74 @@ Display all available products
 
 View full details of a specific product
 
+/-----------------------------------------------------------
+هيكل المشروع
+SupplementSystem
+│
+├── Program.cs
+├── Product.cs
+//------------------------------------------------------------
+الكلاسات المستخدمة
+Product Class
+
+يمثل المنتج ويحتوي على:
+
+Used Classes:
+ Product Class:
+
+Name
+
+Flavor
+
+Category
+
+Price
+
+Quantity
+//------------------------------------------------------------
+Project Objectives
+
+Practice Object-Oriented Programming (OOP) concepts in C#
+
+Implement full CRUD operations
+
+Work with Lists and LINQ
+
+Build an interactive console menu
+//------------------------------------------------------------
+Project Features
+
+تعديل بيانات منتج موجود
+
+حذف منتج
+
+عرض جميع المنتجات في الصفحة الرئيسية
+
+عرض التفاصيل الكاملة لمنتج معين
+
+البحث عن منتج بالاسم أو الطعم أو التصنيف
+
 Search products by name, flavor, or category
 //------------------------------------------------------------
+Project Structure
+SupplementSystem
+│
+├── Program.cs
+├── Product.cs
 //------------------------------------------------------------
+Used Classes
+ Product Class
+
+Represents a product with the following properties:
+
+Id
+
+Name
+
+Flavor
+
+Category
+
+Price
+
+Quantity
